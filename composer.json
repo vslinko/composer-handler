@@ -1,0 +1,27 @@
+{
+    "name": "rithis/composer-handler",
+    "homepage": "https://github.com/rithis/composer-handler",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vyacheslav Slinko",
+            "email": "vyacheslav.slinko@rithis.com",
+            "role": "Founder"
+        }
+    ],
+    "support": {
+        "email": "support@rithis.com",
+        "issues": "https://github.com/rithis/composer-handler/issues",
+        "wiki": "https://github.com/rithis/composer-handler/wiki",
+        "source": "https://github.com/rithis/composer-handler"
+    },
+    "require": {
+        "sensio/distribution-bundle": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "Rithis\\Composer": ""
+        }
+    },
+    "target-dir": "Rithis/Composer"
+}
